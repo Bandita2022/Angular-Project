@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "name": "Bandita",
+      "city": "Kolkata",
+      "age": 26,
+      "id": 1
+    },
+    {
+      "name": " Rajesh",
+      "city": "Delhi",
+      "age": "50",
+      "id": 2
+    },
+    {
+      "name": "Nandini",
+      "city": "Mumbai",
+      "age": "36",
+      "id": 3
+    }
+  ],
+  "Hospital": [
+    {
+      "name": "Narayana",
+      "city": "Kolkata",
+      "No of Beds": 13,
+      "id": 1
+    },
+    {
+      "name": " ",
+      "city": " ",
+      "bedno": 0,
+      "id": 2
+    },
+    {
+      "name": " ",
+      "city": " ",
+      "bedno": 0,
+      "id": 3
+    }
+  ]
+}

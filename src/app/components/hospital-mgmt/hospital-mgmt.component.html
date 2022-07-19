@@ -1,0 +1,25 @@
+<p>hospital-mgmt Form</p>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+       <p>
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" formControlName = "name" />
+    </p>
+    <p>
+        <label for="city">city</label>
+        <select id="city" name="city" formControlName = "city">
+        <option value="1"> Kolkata</option>
+        <option value="2"> Delhi</option>
+        <option value="3"> Mumbai</option>
+        <option value="4"> Chennai</option>
+        </select>
+    </p>
+    <p>
+        <label for="bedno">No of beds</label>
+        <input type="text" id="bedno" name="bedno" formControlName = "bedno"/>
+    </p>
+     <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
+

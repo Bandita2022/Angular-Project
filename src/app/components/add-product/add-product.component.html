@@ -1,0 +1,46 @@
+<p>add-product Form</p>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <p>
+        <label for="firstname">Firstname</label>
+        <input type="text" id="firstname" name="firstname" formControlName = "firstname" />
+    </p>
+    <p>
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname" name="lastname" formControlName = "lastname" />
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" formControlName = "email"/>
+    </p>
+    <p>
+        <label for="gender">Gender</label>
+        <input type="radio" value="male" id="gender" name="gender" formControlName = "gender"/>Male
+        <input type="radio" value="female" id="gender" name="gender" formControlName = "gender"/>Female
+    </p>
+    <p>
+        <label for="isMarried">Married</label>
+        <input type="checkbox" id="isMarried" name="isMarried" formControlName = "isMarried"/>
+    </p>
+    <p>
+        <label for="country">Country</label>
+        <select id="country" name="country" formControlName = "country">
+        <option value="1"> India</option>
+        <option value="2"> USA</option>
+        <option value="3"> Canada</option>
+        <option value="4"> Italy</option>
+        </select>
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
+
+<div>
+    <h1>PIPE Examples</h1>
+    <h3> Product Name is {{product.ProductName | uppercase | ellipsis}}</h3>
+    <h3> Colour is {{product.color | lowercase}}</h3>
+    <h3> Price is {{product.price| currency:"GBP"}}</h3>
+    <h3> Launched on {{product.launchedon | date}}</h3>
+    <h5> Product ID is {{product.ProductID}}</h5>
+</div>

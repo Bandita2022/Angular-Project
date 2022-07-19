@@ -1,0 +1,6 @@
+{"users": [
+    {"name": "Bandita", "city": "Kolkata", "age": 26, "id" : 1}
+]}
+{"hospital-mgmt": [
+    {"name": "Narayana", "city": "Kolkata", "No of Beds": 26, "id" : 1}
+]}
